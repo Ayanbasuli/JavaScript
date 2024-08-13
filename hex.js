@@ -3,8 +3,8 @@ const btn = document.getElementById("btn");
 const color = document.querySelector(".color");
 
 btn.addEventListener("click", function () {
-  let hexColor = "#";
-  for (let i = 0; i < 6; i++) {
+  let hexColor = "";
+  for (let i = 0; i < 12; i++) {
     hexColor += hex[getRandomNumber()];
   }
 
